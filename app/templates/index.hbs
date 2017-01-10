@@ -1,4 +1,9 @@
+<div class="row preview-row">
+  {{#each model.stories as |story|}}
+    {{preview-tile story=story}}
+  {{/each}}
+</div>
 
-{{#each model as |story|}}
-  {{preview-tile story=story}}
+{{#each model.features as |feature|}}
+  {{feature-story feature=feature}}
 {{/each}}

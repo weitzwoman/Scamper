@@ -2,6 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.findAll('story');
-  }
+    return Ember.RSVP.hash({
+     stories: this.store.findAll('story'),
+     features: this.store.query('story', { feature: true });
+    });
+  },
 });

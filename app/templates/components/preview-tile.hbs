@@ -1,4 +1,4 @@
-
+{{#unless story.feature}}
   <div class="col-sm-4">
     <div class="preview-photo">
       <img class="img-responsive" src={{story.image}} alt="Story Photo">
@@ -8,3 +8,4 @@
       <h5>By <span>{{story.author}}</span></h5>
     </div>
   </div>
+{{/unless}}

@@ -11,7 +11,7 @@
 .nav-row h3 {
   display: inline-block;
   position: relative;
-  left: 15px;
+  left: 80px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -62,7 +62,12 @@ ul#nav-social li {
 .preview-photo img {
   margin: 0 auto;
   height: 150px;
-  width: auto;
+  width: 300px;
+}
+
+.preview-row {
+  margin-top: 50px;
+  padding: 0;
 }
 
 .story-details {
@@ -73,4 +78,8 @@ ul#nav-social li {
   width: 250px;
   position: relative;
   top: -35px;
+}
+
+.story-details h5 span {
+  color: tomato;
 }
