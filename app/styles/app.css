@@ -1,0 +1,76 @@
+.fluid-row {
+  background-color: tomato;
+  border-bottom: 1px solid black;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-row h3 {
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.nav-row h3:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.hamburger {
+  align-self: flex-start;
+}
+
+.hamburger img {
+  display: inline-block;
+  height: 75px;
+}
+
+.hamburger img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.social-icon {
+  height: 25px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+ul#nav-social {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+}
+
+ul#nav-social li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+
+.preview-photo img {
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
+}
+
+.story-details {
+  background-color: white;
+  border: 1px solid grey;
+  text-align: center;
+  margin: 0 auto;
+  width: 250px;
+  position: relative;
+  top: -35px;
+}
