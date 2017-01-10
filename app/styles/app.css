@@ -17,6 +17,7 @@
   margin-bottom: 20px;
   border-bottom: 2px solid black;
   color: black;
+  transform: rotate(12deg);
 }
 
 .nav-row h3:hover {
@@ -58,7 +59,6 @@ ul#nav-social li {
   padding: 0 5px;
 }
 
-
 .preview-photo img {
   margin: 0 auto;
   height: 150px;
@@ -68,6 +68,7 @@ ul#nav-social li {
 .preview-row {
   margin-top: 50px;
   padding: 0;
+
 }
 
 .story-details {
@@ -81,5 +82,37 @@ ul#nav-social li {
 }
 
 .story-details h5 span {
+  color: tomato;
+}
+
+.feature-row {
+  margin-top: 50px;
+}
+
+.feature-details:before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(135deg, tomato, yellow);
+  top: -6px;
+  left: 0;
+}
+
+.feature-details {
+  background-color: white;
+  border: 1px solid grey;
+  text-align: center;
+  margin: 0 auto;
+  width: 750px;
+  position: relative;
+  top: -35px;
+  padding: 25px 200px;
+  /*border-top: 8px solid tomato;*/
+  /*border-image: linear-gradient(to right, blue, tomato)) 1 100%;*/
+  /*background-image: -webkit-gradient(linear, left top, right top, color-stop(0.33, rgb(14,173,173)), color-stop(0.67, rgb(0,255,255)));)*/
+}
+
+.feature-details h5 span {
   color: tomato;
 }
