@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-push-3 headline text-center">
+      <h1><span>{{model.headline}}</span></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="story-img col-sm-8 col-sm-push-2">
+      <img class="img-responsive" src={{model.image}}>
+    </div>
+  </div>
+  <div class="row button-row">
+    <div class="col-sm-8 col-sm-push-1 no-padding">
+      <button type="button" name="button"><img class="fb" src="http://musicknox.com/wp-content/themes/musicknox-com/images/facebook.png">Share this</button>
+    </div>
+  </div>
+  <div class="col-sm-7 col-sm-push-2">
+    <div class="row">
+      <h4><i>By</i> {{model.author}}</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4>{{model.content}}</h4>
+      </div>
+    </div>
+  </div>
+</div>

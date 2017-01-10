@@ -1,3 +1,21 @@
+body {
+  background-color: #eee;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
 .fluid-row {
   background-color: tomato;
   border-bottom: 1px solid black;
@@ -68,7 +86,6 @@ ul#nav-social li {
 .preview-row {
   margin-top: 50px;
   padding: 0;
-
 }
 
 .story-details {
@@ -108,11 +125,54 @@ ul#nav-social li {
   position: relative;
   top: -35px;
   padding: 25px 200px;
-  /*border-top: 8px solid tomato;*/
-  /*border-image: linear-gradient(to right, blue, tomato)) 1 100%;*/
-  /*background-image: -webkit-gradient(linear, left top, right top, color-stop(0.33, rgb(14,173,173)), color-stop(0.67, rgb(0,255,255)));)*/
 }
 
 .feature-details h5 span {
   color: tomato;
+}
+
+.story-img img {
+  margin: 0 auto;
+}
+
+.headline span {
+  display: inline;
+  background-image: linear-gradient(to bottom, transparent 0, yellow 0);
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  background-size: 100% 1em;
+  background-position: 0 center;
+  line-height: 1;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.headline h1 {
+  position: relative;
+  top: 35px;
+  z-index: 100;
+}
+
+.button-row {
+  margin:  25px 0;
+}
+
+.button-row button {
+  background-color: blue;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  height: 35px;
+  width: 135px;
+}
+
+.fb {
+  position: relative;
+  right: 15px;
+  height: 30px;
+}
+
+.no-padding {
+  padding: 0;
 }
