@@ -176,3 +176,69 @@ ul#nav-social li {
 .no-padding {
   padding: 0;
 }
+
+.side-nav {
+  height: 100vh;
+  width: 300px;
+  background: linear-gradient(to bottom, tomato, yellow );
+  color: black;
+  z-index: 1000;
+  position: absolute;
+  box-shadow: 0 0 50px rgba(50,50,50,.8);
+}
+
+.top-level ul li a,
+.bottom-level ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+.top-level ul li,
+.bottom-level ul li {
+  list-style-type: none;
+  padding: 25px 0;
+}
+
+.top-level ul,
+.bottom-level ul {
+  padding: 0 15px;
+}
+
+.top-level ul li {
+  text-align: right;
+}
+
+.close-icon {
+  height: 40px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.top-level {
+  background-color: rgba(255,255,255, .25);
+}
+
+
+
+ul#side-social {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  float: right;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul#side-social li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.social-row li:nth-child(1) {
+  font-style: italic;
+  margin-right: 15px;
+
+}
